@@ -18,6 +18,21 @@ ul{
     padding: 0;
     margin: 0;
 }
+.erorr-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    line-height: 100%;
+    font-size: 50px;
+    color: #083A15;
+    span{
+        font-size: 150px;
+    }
+
+}
 .container{
     max-width: 1575px;
     margin: auto;

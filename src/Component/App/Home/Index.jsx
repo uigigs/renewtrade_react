@@ -14,6 +14,7 @@ import FAQ from './FAQ'
 import JoinUs from './JoinUs'
 import Footer from '../../Core/Footer'
 import Tokenomics from './Tokenomics'
+import Roadmap from './Roadmap'
 
 const HomeCompoennt = () => {
   return (
@@ -29,6 +30,7 @@ const HomeCompoennt = () => {
         <Tokenomics/>
         <Staking/>
         <Audits/>
+        <Roadmap/>
         <FAQ/>
         <JoinUs/>
         <Footer/>

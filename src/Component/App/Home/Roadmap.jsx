@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Error = () => {
+const Roadmap = () => {
   return (
     <div className='erorr-page'><span>404</span> <br />not found</div>
   )
 }
 
-export default Error
+export default Roadmap
