@@ -686,6 +686,15 @@ ul{
     }
 }
 
+.roadmap{
+    &-section{
+        .section-title{
+            max-width: 862px;
+            margin: auto;
+        }
+    }
+}
+
 .faq{
     &-section{
         padding-top: 77px;
