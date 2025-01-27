@@ -5,7 +5,7 @@ const Revenue = () => {
     <div className='revenue-section'>
         <div className="container">
             <div className="row">
-                <div className="col-md-5">
+                <div className="col-xl-5 col-lg-6">
                     <div className="revenue-left">
                         <div className="section-title">
                             <h2>Revenue Sharing Model</h2>
@@ -16,14 +16,16 @@ const Revenue = () => {
                         <img src="./images/icons/arrow-right-line.svg" alt="icon" className="tier-arrow" />
                     </div>
                 </div>
-                <div className="col-md-7">
+                <div className="col-xl-7 col-lg-6">
                     <div className="revenue-right">
                         <div className="tier-text">
                             <h6>Tier 01</h6>
                             <p>Investments under $5,000 - Earn up to 10% of total profits.</p>
                         </div>
                         <div className="tier-img">
-                            <img src="./images/img/tier-img.png" alt="img" />
+                            <img src="./images/shape/revenue-shape.png" alt="img" className='tier-shape-1' />
+                            <img src="./images/img/tier-img.png" alt="img" className='tier-right-img' />
+                            <img src="./images/shape/revenue-shape2.png" alt="img" className='tier-shape-2' />
                         </div>
                     </div>
                 </div>

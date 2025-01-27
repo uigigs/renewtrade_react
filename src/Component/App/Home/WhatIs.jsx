@@ -5,7 +5,7 @@ const WhatIs = () => {
     <div className='what-is-section'>
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <div className="what-is-left">
                         <div className="what-is-shape">
                             <img src="./images/shape/s-line.png" alt="img" />
@@ -17,10 +17,11 @@ const WhatIs = () => {
                     
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <div className="what-is-right">
                         <div className="what-is-img">
-                            <img src="./images/img/what-is-img.svg" alt="img" />
+                            <img src="./images/img/what-is-img.svg" alt="img" className='what-is-right-img' />
+                            <img src="./images/shape/what-is-shape.png" alt="img" className='what-is-shape' />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,223 @@
+@media only screen and (max-width: 1600px) {
+    .revenue {
+        &-left {
+            .tier-arrow {
+                width: 50%;
+                right: -5%;
+                top: 80%;
+            }
+        }
+    }
+    .utilities-invest{
+        &-section{
+            padding-top: 150px;
+        }
+        &-column{
+            padding: 40px 20px 0px 20px;
+            &.center {
+                .air-mil-img{
+                    top: -15%;
+                }
+            }
+        }
+    }
+    
+
+    .what-is-shape {
+        width: 60%;
+    }
+
+   
+}
+
+@media only screen and (max-width: 1440px) {
+    .container{
+        max-width: 1200px;
+    }
+    body{
+        font-size: 16px;
+    }
+    .header-inner {
+        padding: 20px 0px;
+    }
+
+    .section-title {
+        h2 {
+            font-size: 45px;
+        }
+    }
+
+    .banner-section {
+        padding-bottom: 40px;
+        position: relative;
+    }
+
+    .what-is-section {
+        padding-bottom: 150px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .how-it {
+        &-section {
+            position: relative;
+            z-index: 2;
+        }
+
+        &-left {
+            max-width: 600px;
+        }
+
+    }
+
+    .revenue{
+        &-section{
+            padding-bottom: 150px;
+        }
+        &-right{
+            max-width: 600px;
+            padding-top: 80px;
+            .tier-text{
+                margin-bottom: -130px;
+            }
+        }
+    }
+
+    .how-it-section {
+        padding-bottom: 120px;
+    }
+
+    .sustainability-inner{
+        padding: 47px 0px;
+        p{
+            max-width: 778px;
+        }
+    }
+
+    .roadmap-section{
+        padding-top: 100px;
+        .roadmap-shape{
+            height: 365px;
+            object-fit: cover;
+        }
+        .roadmap-slider{
+            margin-left: 0;
+        }
+    }
+    .join-us-section{
+        padding-bottom: 100px;
+    }
+    .footer-content {
+        bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 992px;
+    }
+    .menu-btn{
+        height: 50px;
+        width: 110px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .banner-text{
+        margin: auto;
+        text-align: center;
+    }
+    .banner-img{
+        max-width: 550px;
+        margin: auto;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .what-is{
+        &-section{
+            padding-top: 100px;
+        }
+        &-left{
+            margin: auto;
+            .section-title{
+                margin: auto;
+                h2{
+                    text-align: center;
+                }
+            }
+            p{
+
+            }
+        }
+        &-right{
+            margin: auto;
+            padding-top: 50px;
+            max-width: 550px;
+        }
+    }
+
+    .how-it{
+        &-section{
+            .section-title{
+                text-align: center;
+            }
+        }
+        &-content{
+            margin-top: 30px;
+            padding-top: 20px;
+        }
+        &-left{
+            margin: auto;
+            max-width: 550px;
+            margin-top: 50px;
+        }
+    }
+
+    .crowdfunding{
+        &-left{
+            margin: auto;
+        }
+        &-right{
+            text-align: center;
+            max-width: 600px;
+            padding-top: 30px;
+            margin: auto;
+            .section-title{
+                text-align: center;
+                margin: auto;
+            }
+        }
+    }
+
+    .tokenomics-section {
+        .tokenomics-img{
+            max-width: 600px;
+        }
+    }
+    .sustainability-inner {
+        .sustainability-shape{
+            display: none;
+        }
+    }
+
+    .revenue{
+        &-section {
+            .tier-arrow{
+                display: none;
+            }
+            .tier-img{
+                .tier-shape-1{
+                    display: none;
+                }
+            }
+        }
+        &-left{
+            text-align: center;
+            margin: auto;
+        }
+        &-right{
+            margin: auto;
+        }
+    }
+    
+    
+}

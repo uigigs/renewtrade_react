@@ -6,7 +6,7 @@ const BannerOne = () => {
     <div className='banner-section'>
         <div className="container">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <div className="banner-text">
                         <h1>Welcome to Renewtrade</h1>
                         <h2>The Future of Renewable <span>Energy and Decentralized Finance</span></h2>
@@ -14,10 +14,11 @@ const BannerOne = () => {
                         <BuyCard/>
                     </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-6">
                     <div className="banner-right">
                         <div className="banner-img">
-                            <img src="./images/img/banner1-img.png" alt="img" />
+                            <img src="./images/img/banner1-img.png" alt="img" className='banner-right-img' />
+                            <img src="./images/shape/banner-img-shape.png" alt="img" className='banner-img-shape' />
                         </div>
                     </div>
                 </div>

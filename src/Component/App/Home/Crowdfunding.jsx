@@ -26,7 +26,7 @@ const Crowdfunding = () => {
     <div className="crowdfunding-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-xl-7 col-lg-6">
             <div className="crowdfunding-left">
               <ul>
                 {crowdfundingData.map((item) => (
@@ -43,7 +43,7 @@ const Crowdfunding = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-xl-5 col-lg-6">
             <div className="crowdfunding-right">
               <div className="section-title">
                 <h2>Crowdfunding for Green Energy</h2>

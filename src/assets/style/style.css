@@ -74,6 +74,20 @@ ul {
   padding-top: 30px;
   padding-bottom: 111px;
 }
+.banner-img {
+  position: relative;
+}
+.banner-img .banner-right-img {
+  position: relative;
+  z-index: 1;
+}
+.banner-img .banner-img-shape {
+  position: absolute;
+  top: 85%;
+  z-index: 0;
+  width: 33.33%;
+  right: 30%;
+}
 
 .banner-text {
   max-width: 669px;
@@ -301,14 +315,28 @@ ul {
 }
 .what-is-img {
   width: 100%;
+  position: relative;
 }
-.what-is-img img {
+.what-is-img .what-is-right-img {
+  position: relative;
+  z-index: 1;
   width: 100%;
+}
+.what-is-img .what-is-shape {
+  position: absolute;
+  z-index: 0;
+  top: 75%;
+  width: 33.33%;
+  left: 33%;
 }
 
 .how-it-left {
   max-width: 790px;
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 .how-it-section {
   padding-bottom: 228px;
@@ -382,6 +410,28 @@ ul {
 .revenue-section {
   padding-bottom: 208px;
 }
+.revenue-section .tier-img {
+  position: relative;
+}
+.revenue-section .tier-img .tier-right-img {
+  position: relative;
+  z-index: 1;
+  background: #FFF;
+}
+.revenue-section .tier-img .tier-shape-1 {
+  position: absolute;
+  z-index: 0;
+  width: 33.33%;
+  bottom: 80%;
+  left: 33.33%;
+}
+.revenue-section .tier-img .tier-shape-2 {
+  z-index: 0;
+  position: absolute;
+  width: 33.33%;
+  top: 80%;
+  left: 33.33%;
+}
 .revenue-left {
   max-width: 580px;
   margin-right: auto;
@@ -394,6 +444,7 @@ ul {
   position: absolute;
   right: -30%;
   bottom: 0;
+  z-index: 11;
 }
 .revenue-left p {
   margin-bottom: 25px;
@@ -414,7 +465,7 @@ ul {
   margin: auto;
   margin-bottom: -200px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 .revenue-right .tier-text h6 {
   font-size: 28px;
@@ -506,7 +557,8 @@ ul {
 }
 .utilities-invest-column.center .air-mil-img {
   position: absolute;
-  bottom: 0px;
+  top: -20%;
+  width: 61%;
 }
 .utilities-invest-column .column-title h3 {
   text-align: center;
@@ -556,6 +608,10 @@ ul {
   text-align: center;
   max-width: 1083px;
   margin: auto;
+}
+.sustainability-inner.section-title {
+  position: relative;
+  z-index: 1;
 }
 
 .tokenomics-section .tokenomics-img {
@@ -630,6 +686,21 @@ ul {
   padding-bottom: 160px;
 }
 
+.staking-right {
+  position: relative;
+}
+.staking-right .staking-img {
+  position: relative;
+  z-index: 1;
+}
+.staking-right .staking-shape {
+  position: absolute;
+  z-index: 0;
+  left: 33.33%;
+  width: 33.33%;
+  top: 85%;
+}
+
 .staking-left,
 .audits-left {
   display: flex;
@@ -654,6 +725,7 @@ ul {
 .roadmap-section {
   padding-top: 160px;
   position: relative;
+  overflow-x: hidden;
 }
 .roadmap-section .roadmap-shape {
   position: absolute;
