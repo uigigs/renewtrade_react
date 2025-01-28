@@ -102,11 +102,15 @@
     margin: auto;
     padding: 50px 0px 0px 0px;
   }
+  .section-title h2 {
+    font-size: 36px;
+  }
   .what-is-section {
     padding-top: 100px;
   }
   .what-is-left {
     margin: auto;
+    text-align: center;
   }
   .what-is-left .section-title {
     margin: auto;
@@ -162,5 +166,78 @@
   }
   .revenue-right {
     margin: auto;
+  }
+  .utilities-invest-inner-border {
+    display: none;
+  }
+  .utilities-invest-column {
+    width: 50% !important;
+  }
+  .utilities-invest-column.center {
+    display: none;
+  }
+  .staking-left,
+  .audits-left {
+    text-align: center;
+    margin: auto;
+  }
+  .staking-left .section-title,
+  .audits-left .section-title {
+    text-align: center;
+    margin: auto;
+  }
+  .staking-right,
+  .audits-right {
+    max-width: 550px;
+    margin: auto;
+  }
+  .faq-section {
+    padding-bottom: 70px;
+  }
+  .footer-img img {
+    height: 330px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 575px;
+    padding: 0px 15px;
+  }
+  .utilities-invest-inner {
+    flex-wrap: wrap;
+  }
+  .utilities-invest-column {
+    width: 100% !important;
+    padding: 0;
+    min-height: auto;
+  }
+  .utilities-invest-column.left {
+    padding-bottom: 50px;
+  }
+  .utilities-invest-column ul li {
+    margin-bottom: 5px;
+  }
+  .tokenomics-section .tokenomics-img {
+    max-width: 385px;
+  }
+  .tokenomics-text {
+    max-width: 90px;
+  }
+  .tokenomics-text.three {
+    top: 35%;
+  }
+  .tokenomics-text.four {
+    top: 47%;
+  }
+  .tokenomics-text h6 {
+    font-size: 14px;
+  }
+  .tokenomics-text h6 span {
+    font-size: 14px;
   }
 }

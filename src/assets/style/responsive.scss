@@ -131,6 +131,12 @@
         margin: auto;
         padding: 50px 0px 0px 0px;
     }
+    .section-title {
+        h2{
+            font-size: 36px;
+        }
+    
+    }
 
     .what-is{
         &-section{
@@ -138,14 +144,12 @@
         }
         &-left{
             margin: auto;
+            text-align: center;
             .section-title{
                 margin: auto;
                 h2{
                     text-align: center;
                 }
-            }
-            p{
-
             }
         }
         &-right{
@@ -218,6 +222,90 @@
             margin: auto;
         }
     }
+    .utilities-invest-inner-border{
+        display: none
+    }
+    .utilities-invest-column{
+        width: 50% !important;
+        &.center{
+            display: none;
+        }
+    }
+
+    .staking, 
+    .audits{
+        &-left{
+            text-align: center;
+            margin: auto;
+            .section-title{
+                text-align: center;
+                margin: auto;
+            }
+        }
+        &-right{
+            max-width: 550px;
+            margin: auto;
+        }    
+    }
+    .faq-section{
+        padding-bottom: 70px;
+    }
+    .footer-img{
+        img{
+            height: 330px;
+            object-fit: cover;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 14px;
+    }
+    .container{
+        max-width: 575px;
+        padding: 0px 15px;
+    }
+    .utilities-invest{
+        &-inner{
+            flex-wrap: wrap;
+        }
+        &-column{
+            width: 100% !important;
+            padding: 0;
+            min-height: auto;
+            &.left{
+                padding-bottom: 50px;
+            }
+            ul{
+                li{
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .tokenomics-section {
+        .tokenomics-img{
+            max-width: 385px;
+        }
+    }
     
+    .tokenomics-text {
+        max-width: 90px;
+        &.two{}
+        &.three{
+            top: 35%;
+        }
+        &.four{
+            top: 47%
+        }
+        &.five{}
+        h6{
+            font-size: 14px;
+            span{
+                font-size: 14px;
+            }
+        }
+    }
     
 }
