@@ -76,6 +76,9 @@
   .roadmap-section .roadmap-slider {
     margin-left: 0;
   }
+  .roadmap-section .slider-item {
+    padding: 0px 12px;
+  }
   .join-us-section {
     padding-bottom: 100px;
   }
@@ -101,6 +104,12 @@
     max-width: 550px;
     margin: auto;
     padding: 50px 0px 0px 0px;
+  }
+  .token-detail .left {
+    text-align: left;
+  }
+  .token-detail .right {
+    text-align: right;
   }
   .section-title h2 {
     font-size: 36px;
@@ -167,6 +176,9 @@
   .revenue-right {
     margin: auto;
   }
+  .utilities-invest-section {
+    padding-top: 70px;
+  }
   .utilities-invest-inner-border {
     display: none;
   }
@@ -175,6 +187,10 @@
   }
   .utilities-invest-column.center {
     display: none;
+  }
+  .crowdfunding-right {
+    padding-top: 0;
+    padding-bottom: 40px;
   }
   .staking-left,
   .audits-left {
@@ -190,6 +206,9 @@
   .audits-right {
     max-width: 550px;
     margin: auto;
+  }
+  .roadmap-section .roadmap-card {
+    padding: 35px 20px;
   }
   .faq-section {
     padding-bottom: 70px;
@@ -222,8 +241,38 @@
   .utilities-invest-column ul li {
     margin-bottom: 5px;
   }
+  .utilities-invest-column .column-title h3 {
+    font-size: 28px;
+  }
+  .how-it-content ul li h3 {
+    font-size: 24px;
+  }
   .tokenomics-section .tokenomics-img {
     max-width: 385px;
+  }
+  .tokenomics-section .count {
+    padding: 20px 30px;
+  }
+  .tokenomics-sectioncount {
+    padding: 20px 40px;
+  }
+  .roadmap-section .roadmap-shape {
+    height: 285px;
+  }
+  .roadmap-section .roadmap-slider {
+    padding-top: 0;
+  }
+  .faq-content {
+    padding-top: 20px;
+  }
+  .faq-content .accordion__button {
+    font-size: 19px;
+  }
+  .join-us-section {
+    padding-bottom: 50px;
+  }
+  .utilities-invest-section {
+    padding-top: 60px;
   }
   .tokenomics-text {
     max-width: 90px;
@@ -239,5 +288,69 @@
   }
   .tokenomics-text h6 span {
     font-size: 14px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .banner-text h2 {
+    font-size: 32px;
+  }
+  .banner-text h2 span {
+    font-size: 36px;
+  }
+  .roadmap-section .roadmap-slider {
+    margin-right: 0;
+  }
+  .roadmap-section .slider-item h6 {
+    margin-bottom: 0;
+  }
+  .staking-section {
+    padding-bottom: 30px;
+  }
+  .faq-section {
+    padding-bottom: 50px;
+  }
+  .faq-content .accordion__button {
+    padding: 20px;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+  .faq-content .accordion__button::before, .faq-content .accordion__button::after {
+    right: 30px;
+  }
+  .faq-content .accordion__panel {
+    padding: 18px 20px;
+  }
+  .join-us-content {
+    padding-top: 15px;
+  }
+  .join-us-content ul {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 280px;
+    margin: auto;
+  }
+  .utilities-invest-column .column-title h3 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .buy-card {
+    padding: 15px;
+  }
+  .buy-card .input-row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .buy-card .input-row .rtx-input {
+    width: 100%;
+  }
+  .rtx-input .next-price {
+    font-size: 12px;
+  }
+  .tokenomics-section .count ul {
+    gap: 15px;
+    justify-content: center;
+    flex-direction: column;
   }
 }

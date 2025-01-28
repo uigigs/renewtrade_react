@@ -25,7 +25,17 @@ const Crowdfunding = () => {
   return (
     <div className="crowdfunding-section">
       <div className="container">
-        <div className="row">
+        <div className="row flex-row-reverse">
+          <div className="col-xl-5 col-lg-6">
+            <div className="crowdfunding-right">
+              <div className="section-title">
+                <h2>Crowdfunding for Green Energy</h2>
+              </div>
+              <p>
+                Our embedded crowdfunding platform enables smaller investors to support renewable energy projects globally. Whether it's solar farms, wind turbines, or micro-hydroelectric projects, you can contribute towards real-world change.
+              </p>
+            </div>
+          </div>
           <div className="col-xl-7 col-lg-6">
             <div className="crowdfunding-left">
               <ul>
@@ -41,16 +51,6 @@ const Crowdfunding = () => {
                   </li>
                 ))}
               </ul>
-            </div>
-          </div>
-          <div className="col-xl-5 col-lg-6">
-            <div className="crowdfunding-right">
-              <div className="section-title">
-                <h2>Crowdfunding for Green Energy</h2>
-              </div>
-              <p>
-                Our embedded crowdfunding platform enables smaller investors to support renewable energy projects globally. Whether it's solar farms, wind turbines, or micro-hydroelectric projects, you can contribute towards real-world change.
-              </p>
             </div>
           </div>
         </div>
