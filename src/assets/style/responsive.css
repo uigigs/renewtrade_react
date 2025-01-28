@@ -210,6 +210,9 @@
   .roadmap-section .roadmap-card {
     padding: 35px 20px;
   }
+  .roadmap-section .roadmap-card h3 {
+    font-size: 26px;
+  }
   .faq-section {
     padding-bottom: 70px;
   }
