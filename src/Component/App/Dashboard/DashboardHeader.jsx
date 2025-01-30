@@ -1,9 +1,13 @@
 import React from 'react'
+import DashboardMobileMenu from './Sidebar/DashboardMobileMenu'
 
 const DashboardHeader = () => {
   return (
     <div className='dashboard-header'>
         <div className="header-left">
+            <div className="dashboard-side-menu-btn">
+              <DashboardMobileMenu/>
+            </div>
             <a href="#" className="logo">Renewtrade</a>
         </div>
         <div className="header-right">
