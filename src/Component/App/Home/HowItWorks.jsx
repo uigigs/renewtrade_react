@@ -28,7 +28,14 @@ const HowItWorks = () => {
   return (
     <div className="how-it-section">
       <div className="container">
-        <div className="row flex-row-reverse">
+        <div className="row">
+        <div className="col-xl-7 col-lg-6">
+            <div className="how-it-left">
+              <div className="how-it-img">
+                <img src="./images/img/how-work-img.png" alt="How it works" />
+              </div>
+            </div>
+          </div>
           <div className="col-xl-5 col-lg-6">
             <div className="how-it-right">
               <div className="how-it-text">
@@ -50,13 +57,6 @@ const HowItWorks = () => {
                     ))}
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-xl-7 col-lg-6">
-            <div className="how-it-left">
-              <div className="how-it-img">
-                <img src="./images/img/how-work-img.png" alt="How it works" />
               </div>
             </div>
           </div>

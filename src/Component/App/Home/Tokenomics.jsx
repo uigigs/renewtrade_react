@@ -3,6 +3,7 @@ import React from 'react'
 const Tokenomics = () => {
   return (
     <div className='tokenomics-section'>
+        <img src="./images/shape/tokenomics-shape.svg" alt="shape" className='tokenomics-shape' />
         <div className="container">
             <div className="section-title text-center">
                 <h2>Tokenomics</h2>
@@ -24,7 +25,8 @@ const Tokenomics = () => {
                     <h6>Team <br /><span>7%</span></h6>
                 </div>
                 <div className="tokenomics-img">
-                    <img src="./images/img/tokenomics.png" alt="icon" />
+                    <img src="./images/img/tokenomics.png" alt="icon" className='desktop' />
+                    <img src="./images/img/tokenomics.png" alt="icon" className='mobile' />
                 </div>
                 <div className="count">
                     <ul>

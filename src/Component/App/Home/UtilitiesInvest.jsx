@@ -57,6 +57,9 @@ const UtilitiesInvest = () => {
             className="utilities-invest-inner-border"
           />
           {/* Left Column */}
+          <div className="utilities-invest-img">
+            <img src="./images/img/air-mil-img2.png" alt="img" />
+          </div>
           <div className="utilities-invest-column left">
             <div className="column-title">
               <h3>Token Utilities: <br /> More than Just Profit Sharing</h3>

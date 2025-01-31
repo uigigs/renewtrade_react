@@ -127,7 +127,7 @@
 @media only screen and (max-width: 991px) {
     .banner-text{
         margin: auto;
-        text-align: center;
+        text-align: left;
     }
     .banner-img{
         max-width: 550px;
@@ -144,7 +144,7 @@
     }
     .section-title {
         h2{
-            font-size: 36px;
+            font-size: 32px;
         }
     
     }
@@ -152,12 +152,19 @@
     .what-is{
         &-section{
             padding-top: 100px;
+            padding-bottom: 0px;
+        }
+        &-shape.s-line{
+            display: none;
         }
         &-left{
             margin: auto;
-            text-align: center;
+            text-align: left;
+            position: relative;
+            z-index: 11;
+            padding-top: 100px;
             .section-title{
-                margin: auto;
+                margin: 0;
                 h2{
                     text-align: center;
                 }
@@ -165,17 +172,12 @@
         }
         &-right{
             margin: auto;
-            padding-top: 50px;
+            padding-top: 0px;
             max-width: 550px;
         }
     }
 
     .how-it{
-        &-section{
-            .section-title{
-                text-align: center;
-            }
-        }
         &-content{
             margin-top: 30px;
             padding-top: 20px;
@@ -183,7 +185,10 @@
         &-left{
             margin: auto;
             max-width: 550px;
-            margin-top: 50px;
+            margin-top: 30px;
+        }
+        &-right{
+            margin-top: 90px;
         }
     }
 
@@ -194,12 +199,9 @@
         &-right{
             text-align: center;
             max-width: 600px;
-            padding-top: 30px;
+            padding-top: 40px;
             margin: auto;
-            .section-title{
-                text-align: center;
-                margin: auto;
-            }
+            text-align: left;
         }
     }
 
@@ -219,18 +221,14 @@
             .tier-arrow{
                 display: none;
             }
-            .tier-img{
-                .tier-shape-1{
-                    display: none;
-                }
-            }
         }
         &-left{
-            text-align: center;
-            margin: auto;
+            text-align: left;
+            margin-right: auto;
         }
         &-right{
             margin: auto;
+            padding-top: 185px;
         }
     }
     .utilities-invest-section{
@@ -243,12 +241,6 @@
         width: 50% !important;
         &.center{
             display: none;
-        }
-    }
-    .crowdfunding{
-        &-right{
-            padding-top: 0;
-            padding-bottom: 40px;
         }
     }
 
@@ -287,9 +279,6 @@
     }
 }
 @media only screen and (max-width: 768px) {
-    body{
-        font-size: 14px;
-    }
     .container{
         max-width: 575px;
         padding: 0px 15px;
@@ -297,6 +286,14 @@
     .utilities-invest{
         &-inner{
             flex-wrap: wrap;
+        }
+        &-img{
+            display: block;
+            width: 100%;
+            margin-bottom: 74px;
+            img{
+                width: 100%;
+            }
         }
         &-column{
             width: 100% !important;
@@ -326,18 +323,32 @@
             }
         }
     }
+    .token-detail{
+        flex-wrap: wrap;
+    }
+
     .tokenomics-section {
+        position: relative;
+        z-index: 0;
+        .container{
+            position: relative;
+            z-index: 1;
+        }
         .tokenomics-img{
             max-width: 385px;
         }
         .count{
-            padding: 20px 30px;
-        }
-    }
-    
-    .tokenomics-section {
-        &count{
-            padding: 20px 40px;
+            padding: 12px 30px;
+            ul{
+                flex-direction:  row !important;
+                justify-content: space-between;
+                li{
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                }
+            }
         }
     }
     .roadmap{
@@ -350,18 +361,15 @@
             }
         }
     }
-
     .faq-content {
         padding-top: 20px;
         .accordion__button{
             font-size: 19px;
         }
     }
-
     .join-us-section{
         padding-bottom: 50px;
     }
-    
     .utilities-invest-section{
         padding-top: 60px;
     }
@@ -392,6 +400,11 @@
             span{
                 font-size: 36px;
             }
+        }
+    }
+    .token-detail {
+        h6{
+            font-size: 14px;
         }
     }
     .roadmap-section {
@@ -437,9 +450,67 @@
         .column-title {
             h3{
                 font-size: 24px;
+                margin-bottom: 0;
+            }
+            p{
+                margin-top: 10px;
+                margin-bottom: 0;
             }
         }
     }
+    .sustainability-inner{
+        .section-title{
+            max-width: 235px;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        p{
+            max-width: 301px;
+            margin-bottom: 90px;
+        }
+    }
+    .tokenomics-section {
+        .tokenomics-shape{
+            display: block;
+            position: absolute;
+            z-index: 0;
+            bottom: 70px;
+            right: 2px;
+        }
+            .count{
+                padding: 12px 10px;
+            }
+    }
+    .tokenomics-img{
+        .desktop{
+            display: none;
+        }
+        .mobile{
+            display: block;
+        }
+    }
+
+    .crowdfunding{
+        &-left {
+            ul {
+                li {
+                    padding: 13px 17px;
+                    .icon{
+                        min-height: 65px;
+                        min-width: 65px;
+                        max-height: 65px;
+                        max-width: 65px;
+                    }
+                    .detail {
+                        h4{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
 
 @media only screen and (max-width: 520px) {
@@ -460,6 +531,13 @@
     .rtx-input {
         .next-price{
             font-size: 12px;
+        }
+    }
+    .roadmap{
+        &-section{
+            .roadmap-shape{
+                height: 322px;
+            }
         }
     }
     .tokenomics-section {
