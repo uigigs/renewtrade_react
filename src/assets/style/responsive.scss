@@ -477,16 +477,38 @@
             bottom: 70px;
             right: 2px;
         }
+        .tokenomics-img{
+            .desktop{
+                display: none;
+            }
+            .mobile{
+                display: block;
+                transform: translateX(30px);
+            }
+
+        }
             .count{
                 padding: 12px 10px;
             }
     }
-    .tokenomics-img{
-        .desktop{
-            display: none;
+    .tokenomics-text{
+        &.one{
+
         }
-        .mobile{
-            display: block;
+        &.two{
+            top: 54%;
+            left: 4%;
+        }
+        &.three{
+            top: 57%;
+        }
+        &.four{
+            top: 62%;
+            left: 27%;
+        }
+        &.five{
+            right: 18%;
+            top: 64%;
         }
     }
 

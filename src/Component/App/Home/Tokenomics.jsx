@@ -26,7 +26,7 @@ const Tokenomics = () => {
                 </div>
                 <div className="tokenomics-img">
                     <img src="./images/img/tokenomics.png" alt="icon" className='desktop' />
-                    <img src="./images/img/tokenomics.png" alt="icon" className='mobile' />
+                    <img src="./images/img/tokenomics-img2.png" alt="icon" className='mobile' />
                 </div>
                 <div className="count">
                     <ul>

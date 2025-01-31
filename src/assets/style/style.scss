@@ -725,7 +725,7 @@ ul{
         position: relative;
         .sustainability-shape{
             position: absolute;
-            top: -40px;
+            top: -57px;
             width: 93%;
             z-index: 0;
         }
@@ -749,6 +749,13 @@ ul{
         .tokenomics-img{
             max-width: 827px;
             margin: auto;
+            .desktop{
+                display: block;
+            }
+            .mobile{
+                display: none;
+            }
+
         }
         .count{
             background: url(../../../public/images/shape/tokenomics-bg-shape.png);
@@ -818,17 +825,6 @@ ul{
             }   
         }
     }
-    .tokenomics-img{
-        margin-bottom: 77px;
-        .desktop{
-            display: block;
-        }
-        .mobile{
-            display: none;
-        }
-    }
-    
-
 }
 
 .staking{

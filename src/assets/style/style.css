@@ -692,7 +692,7 @@ ul {
 }
 .sustainability-inner .sustainability-shape {
   position: absolute;
-  top: -40px;
+  top: -57px;
   width: 93%;
   z-index: 0;
 }
@@ -712,6 +712,12 @@ ul {
 .tokenomics-section .tokenomics-img {
   max-width: 827px;
   margin: auto;
+}
+.tokenomics-section .tokenomics-img .desktop {
+  display: block;
+}
+.tokenomics-section .tokenomics-img .mobile {
+  display: none;
 }
 .tokenomics-section .count {
   background: url(../../../public/images/shape/tokenomics-bg-shape.png);
@@ -777,15 +783,6 @@ ul {
 .tokenomics-text h6 span {
   color: #0C3;
   font-size: 20px;
-}
-.tokenomics .tokenomics-img {
-  margin-bottom: 77px;
-}
-.tokenomics .tokenomics-img .desktop {
-  display: block;
-}
-.tokenomics .tokenomics-img .mobile {
-  display: none;
 }
 
 .staking-section {

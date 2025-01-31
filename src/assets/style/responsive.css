@@ -380,14 +380,30 @@
     bottom: 70px;
     right: 2px;
   }
+  .tokenomics-section .tokenomics-img .desktop {
+    display: none;
+  }
+  .tokenomics-section .tokenomics-img .mobile {
+    display: block;
+    transform: translateX(30px);
+  }
   .tokenomics-section .count {
     padding: 12px 10px;
   }
-  .tokenomics-img .desktop {
-    display: none;
+  .tokenomics-text.two {
+    top: 54%;
+    left: 4%;
   }
-  .tokenomics-img .mobile {
-    display: block;
+  .tokenomics-text.three {
+    top: 57%;
+  }
+  .tokenomics-text.four {
+    top: 62%;
+    left: 27%;
+  }
+  .tokenomics-text.five {
+    right: 18%;
+    top: 64%;
   }
   .crowdfunding-left ul li {
     padding: 13px 17px;
