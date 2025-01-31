@@ -5,7 +5,8 @@ const SidebarContent = () => {
     <div className='sidebar-content'>
         <div className="sidebar-menu">
             <ul>
-                <li><a href="#"><span className="icon"></span> Dashboard</a></li>
+                <li><a href="/dashboard"><span className="icon"></span> Dashboard</a></li>
+                <li><a href="/staking"><span className="icon"></span> Staking</a></li>
             </ul>
         </div>
 

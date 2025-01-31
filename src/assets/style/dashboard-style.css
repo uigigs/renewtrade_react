@@ -12,9 +12,10 @@
   padding: 25px;
   border-bottom: 0.766px solid rgba(255, 255, 255, 0.1);
   top: 0;
-  position: absolute;
-  z-index: 99;
+  position: fixed;
+  z-index: 9999;
   width: 100%;
+  background: #070710;
 }
 .dashboard-header .header-left {
   display: flex;
@@ -66,6 +67,7 @@
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
+  padding-left: 320px;
 }
 
 .dashboard-content {
@@ -86,15 +88,15 @@
   line-height: 130%;
 }
 
-.dashboard-banner {
-  background-image: url(../../../public/images/bg/dashboard-banner-bg.png);
+.breadcumbs-section {
+  background-image: url(../../../public/images/bg/breadcumbs-bg.png);
   background-color: #0F1021;
   background-size: cover;
   background-position: center bottom;
   height: 310px;
   padding: 65px 0px;
 }
-.dashboard-banner h2 {
+.breadcumbs-section h2 {
   color: #CCCEEF;
   text-align: center;
   font-size: 36px;
@@ -102,19 +104,25 @@
   font-weight: 600;
   line-height: 122.222%;
 }
-.dashboard-banner p {
+.breadcumbs-section p {
   color: #7376AA;
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  max-width: 569px;
+  margin: auto;
 }
 
 .sidebar {
   border-right: 0.766px solid rgba(255, 255, 255, 0.1);
   padding: 10px 20px 20px 20px;
   min-width: 320px;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  background: #070710;
 }
 .sidebar-menu {
   width: 100%;
@@ -323,6 +331,260 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* staking style */
+.staking-content {
+  padding-top: 81px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+
+.staking-card {
+  max-width: 1082px;
+  margin: auto;
+  margin-top: -70px;
+  border-radius: 12px;
+  background: #0F1021;
+  overflow: hidden;
+}
+.staking-card-header {
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #14152C;
+  flex-wrap: wrap;
+  gap: 20px;
+  row-gap: 10px;
+}
+.staking-card-header h3 {
+  background: linear-gradient(90deg, #12B5DE 0%, #7130C3 30%, #FF3BD4 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 145.455%;
+  text-transform: capitalize;
+}
+.staking-card-header .get-btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 9px;
+  color: #7064E9;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.staking-card-header .get-btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 1px solid rgba(112, 100, 233, 0.2);
+  height: 30px;
+  width: 30px;
+}
+.staking-card-body {
+  padding: 32px 40px;
+}
+.staking-card-body p.info {
+  color: #7376AA;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+.staking-card .staking-form label {
+  color: #7376AA;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.staking-card .staking-form .staking-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid rgba(112, 100, 233, 0.1);
+  background: #14152C;
+  padding: 11px 16px;
+  margin-bottom: 13px;
+  height: 84px;
+}
+.staking-card .staking-form .staking-input .left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  max-width: 70%;
+}
+.staking-card .staking-form .staking-input .right h6 {
+  color: #7376AA;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171.429%;
+  margin-bottom: 0;
+}
+.staking-card .staking-form .staking-input .icon {
+  min-width: 60px;
+  max-width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.staking-card .staking-form .staking-input .text input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #CCCEEF;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 175%;
+}
+.staking-card .staking-form .staking-input .text h6 {
+  color: #7376AA;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 171.429%;
+  margin-bottom: 0;
+}
+.staking-card .staking-form .stake-btn {
+  width: 130px;
+  height: 60px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  background: #7064E9;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.quick-select-btn ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+}
+.quick-select-btn ul li button {
+  border-radius: 100px;
+  border: 1px solid rgba(112, 100, 233, 0.1);
+  background: #14152C;
+  padding: 6px 20px;
+  color: #7376AA;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+  transition: 0.3s;
+}
+.quick-select-btn ul li button.active, .quick-select-btn ul li button:hover {
+  border: 1px solid #7064E9;
+  background: #7064E9;
+  color: #FFF;
+}
+
+.lock-overview {
+  margin: 30px 0px;
+}
+.lock-overview label {
+  margin-bottom: 12px;
+  color: #7376AA;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.lock-overview .overview-content {
+  padding: 15px 20px;
+  border-radius: 12px;
+  background: linear-gradient(270deg, #A600DD 0%, #7104D5 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.lock-overview .overview-content .left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  text-align: left;
+}
+.lock-overview .overview-content .left .icon {
+  min-height: 50px;
+  min-width: 50px;
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.lock-overview .overview-content .left .icon img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lock-overview .overview-content .right {
+  text-align: right;
+}
+.lock-overview .overview-content h4 {
+  color: #CCCEEF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 124%;
+  margin-bottom: 0;
+}
+
+.staking-detail-card {
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid rgba(112, 100, 233, 0.1);
+  background: #14152C;
+}
+.staking-detail-card ul li {
+  color: #7376AA;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 170%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0px;
+}
+.staking-detail-card ul li span.underline {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+.staking-detail-card ul li span.highlight {
+  color: #CCCEEF;
+}
+.staking-detail-card ul li span.highlight2 {
+  color: #7064E9;
+}
+
 @media only screen and (max-width: 1200px) {
   .dashboard-header .header-left {
     gap: 20px;
@@ -338,6 +600,9 @@
     justify-content: center;
     height: 100%;
     width: 40px;
+  }
+  .dashboard-inner {
+    padding-left: 0;
   }
   .sidebar {
     display: none;
@@ -372,6 +637,18 @@
   .dashboard-card-section .dashboard-card {
     width: 48%;
   }
+  .staking-card-header {
+    padding: 20px;
+  }
+  .staking-card-body {
+    padding: 25px 20px;
+  }
+  .quick-select-btn ul li button {
+    padding: 5px 15px;
+  }
+  .lock-overview .overview-content h4 {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .dashboard-header .header-right ul {
@@ -393,6 +670,18 @@
     text-decoration: none;
     color: #CCCEEF;
     text-transform: uppercase;
+  }
+  .quick-select-btn {
+    margin-bottom: 30px;
+  }
+  .staking-detail-card {
+    margin-bottom: 24px;
+  }
+  .lock-overview {
+    margin-top: 0;
+  }
+  .staking-card .staking-form .stake-btn {
+    margin-top: 10px;
   }
 }
 @media only screen and (max-width: 575px) {

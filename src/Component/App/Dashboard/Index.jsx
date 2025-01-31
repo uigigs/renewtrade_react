@@ -4,7 +4,7 @@ import DashboardInner from './DashboardInner'
 
 const Dashboard = () => {
   return (
-    <div className='dashboard-body'>
+    <div className='dashboard dashboard-body'>
         <DashboardHeader/>
         <DashboardInner/>
     </div>

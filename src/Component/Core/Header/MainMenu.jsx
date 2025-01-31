@@ -31,20 +31,30 @@ const MainMenu = () => {
           </div>
         </div>
         <div className="offcanvas-body">
-            <div className="main-menu-list">
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">How It Works</a></li>
-                    <li><a href="#">Tokenomics</a></li>
-                    <li><a href="#">Roadmap</a></li>
-                    <li><a href="#">Staking</a></li>
-                </ul>
-            </div>
+          <div className="main-menu-list">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">How It Works</a></li>
+              <li><a href="#">Tokenomics</a></li>
+              <li><a href="#">Roadmap</a></li>
+              <li><a href="#">Staking</a></li>
+            </ul>
+          </div>
 
-            <div className="main-menu-btns">
-                <a href="/dashboard" className='dashboard-btn'>Dashboard</a>
-                <button className='wallet-btn'><img src="./images/icons/wallet.svg" alt="icon" /> Connect Wallet</button>
-            </div>
+          <div className="main-menu-btns">
+            <a href="/dashboard" className='dashboard-btn'>Dashboard</a>
+            <button className='wallet-btn'><img src="./images/icons/wallet.svg" alt="icon" /> Connect Wallet</button>
+          </div>
+
+
+          <div className="menu-footer">
+            <ul>
+              <li><a href="#"><img src="./images/icons/twitter-green.svg" alt="icon" /></a></li>
+              <li><a href="#"><img src="./images/icons/telegram-green.svg" alt="icon" /></a></li>
+              <li><a href="#"><img src="./images/icons/light-green.svg" alt="icon" /></a></li>
+              <li><a href="#"><img src="./images/icons/m-green.svg" alt="icon" /></a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div >

@@ -74,6 +74,27 @@ ul {
   top: 20px;
   right: 20px;
 }
+.main-menu .menu-footer {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+}
+.main-menu .menu-footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.main-menu .menu-footer ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 48px;
+  border: 1px solid rgba(0, 204, 51, 0.5);
+}
 
 .main-menu-list ul {
   display: flex;

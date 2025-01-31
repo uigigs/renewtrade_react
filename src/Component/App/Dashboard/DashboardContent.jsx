@@ -1,14 +1,10 @@
 import React from 'react'
+import Breadcumbs from './Breadcumbs'
 
 const DashboardContent = () => {
   return (
     <div className='dashboard-content'>
-        <div className="dashboard-banner">
-            <div className="dashboard-container">
-                <h2>Presale Dashboard</h2>
-                <p>Explore your transaction history, referral rewards and rank.</p>
-            </div>
-        </div>
+        <Breadcumbs title="Presale Dashboard" subtitle="Explore your transaction history, referral rewards and rank."/>
         <div className="dashboard-container">
             <div className="dashboard-card-section">
                 <div className="dashboard-card">
