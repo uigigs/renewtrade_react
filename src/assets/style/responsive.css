@@ -96,9 +96,21 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .header-inner .logo {
+    max-width: 130px;
+  }
   .banner-text {
     margin: auto;
     text-align: left;
+  }
+  .banner-section {
+    padding-top: 45px;
+  }
+  .banner-cloud {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    display: block;
   }
   .banner-img {
     max-width: 550px;
@@ -205,6 +217,22 @@
     max-width: 550px;
     margin: auto;
   }
+  .staking-right .staking-img {
+    max-width: 307px;
+    width: 100%;
+    margin: auto;
+  }
+  .staking-right .staking-img.desktop {
+    display: none;
+  }
+  .staking-right .staking-img.mobile {
+    display: block;
+  }
+  .roadmap-section .roadmap-cloud {
+    right: 0;
+    top: 15%;
+    width: 40px;
+  }
   .roadmap-section .roadmap-card {
     padding: 35px 20px;
   }
@@ -213,6 +241,22 @@
   }
   .faq-section {
     padding-bottom: 70px;
+    sition: relative;
+  }
+  .faq-section .cloud-img1 {
+    display: none;
+  }
+  .faq-section .cloud-img2 {
+    display: none;
+  }
+  .faq-section .cloud-img3 {
+    position: absolute;
+    bottom: 2.5%;
+    max-width: 100px;
+    left: 50%;
+  }
+  .faq-section .cloud-img4 {
+    display: none;
   }
   .footer-img img {
     height: 330px;
@@ -313,10 +357,29 @@
   .tokenomics-text h6 span {
     font-size: 14px;
   }
+  .footer-section {
+    position: relative;
+  }
+  .footer-section .footer-cloud1 {
+    position: absolute;
+    left: 0%;
+    top: 0;
+    max-width: 20%;
+  }
+  .footer-section .footer-cloud2 {
+    display: none;
+  }
+  .footer-section .footer-cloud3 {
+    display: none;
+  }
 }
 @media only screen and (max-width: 575px) {
+  .banner-text h1 {
+    font-size: 16px;
+  }
   .banner-text h2 {
     font-size: 32px;
+    max-width: 338px;
   }
   .banner-text h2 span {
     font-size: 36px;
@@ -353,8 +416,15 @@
   .join-us-content ul {
     flex-direction: column;
     align-items: flex-start;
-    max-width: 280px;
+    max-width: 260px;
     margin: auto;
+  }
+  .join-us-content ul li {
+    gap: 12px;
+  }
+  .join-us-content ul li img {
+    max-width: 22px;
+    width: 22px;
   }
   .utilities-invest-column .column-title h3 {
     font-size: 24px;

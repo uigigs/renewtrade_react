@@ -4,6 +4,7 @@ import BuyCard from './BuyCard'
 const BannerOne = () => {
   return (
     <div className='banner-section'>
+        <img src="./images/shape/banner-cloud.svg" alt="cloud" className='banner-cloud' />
         <div className="container">
             <div className="row">
                 <div className="col-lg-6">

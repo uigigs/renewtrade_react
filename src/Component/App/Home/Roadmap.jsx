@@ -83,6 +83,7 @@ const Roadmap = () => {
 
   return (
     <div className="roadmap-section">
+      <img src="./images/shape/roadmap-cloud.svg" alt='shape' className="roadmap-cloud"/>
       <img src="./images/shape/roadmap-shape.svg" alt='shape' className="roadmap-shape"/>
       {/* <img src="./images/shape/roadmap-shape2.svg" alt='shape' className="roadmap-shape2"/> */}
       <div className="container">

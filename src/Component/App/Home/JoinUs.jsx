@@ -9,6 +9,7 @@ const JoinUs = () => {
 
   return (
     <div className="join-us-section">
+      <img src="./images/shape/s-line2.svg" alt="img" className='s-shape' />
       <div className="container">
         <div className="section-title text-center">
           <h2>Join Us in Shaping a Sustainable Future</h2>

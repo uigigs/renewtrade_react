@@ -179,6 +179,11 @@ ul {
 .banner-section {
   padding-top: 30px;
   padding-bottom: 111px;
+  position: relative;
+}
+.banner-cloud {
+  z-index: 0;
+  display: none;
 }
 .banner-img {
   position: relative;
@@ -197,6 +202,8 @@ ul {
 
 .banner-text {
   max-width: 669px;
+  position: relative;
+  z-index: 1;
 }
 .banner-text h1 {
   color: #77E195;
@@ -817,6 +824,12 @@ ul {
   position: relative;
   z-index: 1;
 }
+.staking-right .staking-img.desktop {
+  display: block;
+}
+.staking-right .staking-img.mobile {
+  display: none;
+}
 .staking-right .staking-shape {
   position: absolute;
   z-index: 0;
@@ -851,6 +864,11 @@ ul {
   position: relative;
   overflow-x: hidden;
 }
+.roadmap-section .roadmap-cloud {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+}
 .roadmap-section .roadmap-shape {
   position: absolute;
   top: 0;
@@ -864,7 +882,7 @@ ul {
   margin: auto;
 }
 .roadmap-section .roadmap-slider {
-  padding-top: 43px;
+  padding-top: 0px;
   margin-right: -18%;
   margin-left: 8%;
 }
@@ -909,6 +927,28 @@ ul {
 .faq-section {
   padding-top: 77px;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 1;
+}
+.faq-section .cloud-img1 {
+  position: absolute;
+  left: 0;
+  top: 45%;
+}
+.faq-section .cloud-img2 {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+}
+.faq-section .cloud-img3 {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+.faq-section .cloud-img4 {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
 }
 .faq-section .section-title {
   max-width: 862px;
@@ -966,6 +1006,15 @@ ul {
 
 .join-us-section {
   padding-bottom: 190px;
+  position: relative;
+  z-index: 0;
+}
+.join-us-section .s-shape {
+  position: absolute;
+  max-width: 40%;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
 }
 .join-us-section .section-title {
   max-width: 716px;
@@ -975,6 +1024,8 @@ ul {
   max-width: 901px;
   margin: auto;
   padding-top: 40px;
+  position: relative;
+  z-index: 1;
 }
 .join-us-content h3 {
   margin-bottom: 30px;
@@ -1002,6 +1053,22 @@ ul {
 
 .footer-section {
   position: relative;
+}
+.footer-section .footer-cloud1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.footer-section .footer-cloud2 {
+  position: absolute;
+  left: 35%;
+  top: -10%;
+  max-width: 8%;
+}
+.footer-section .footer-cloud3 {
+  position: absolute;
+  right: 10%;
+  top: 10%;
 }
 .footer-content {
   text-align: center;

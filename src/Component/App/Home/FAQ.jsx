@@ -41,6 +41,10 @@ const faqData = [
 const FAQ = () => {
   return (
     <div className="faq-section">
+      <img src="./images/shape/faq-cloud.svg" alt="cloud" className="cloud-img1" />
+      <img src="./images/shape/footer-cloud.svg" alt="cloud" className="cloud-img2" />
+      <img src="./images/shape/footer-cloud.svg" alt="cloud" className="cloud-img3" />
+      <img src="./images/shape/faq-cloud2.svg" alt="cloud" className="cloud-img4" />
       <div className="container">
         <div className="section-title text-center">
           <h2>Frequently Asked Questions</h2>

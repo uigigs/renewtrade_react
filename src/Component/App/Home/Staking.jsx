@@ -7,7 +7,8 @@ const Staking = () => {
                 <div className="row flex-row-reverse">
                     <div className="col-lg-6">
                         <div className="staking-right">
-                            <img src="./images/img/whitehouse.png" alt="icon" className='staking-img' />
+                            <img src="./images/img/whitehouse.png" alt="icon" className='staking-img desktop' />
+                            <img src="./images/img/whitehouse-mobile.png" alt="icon" className='staking-img mobile' />
                             <img src="./images/shape/revenue-shape2.png" alt="icon" className='staking-shape' />
                         </div>
                     </div>

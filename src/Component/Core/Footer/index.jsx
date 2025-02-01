@@ -3,6 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer-section'>
+        <img src="./images/shape/footer-cloud.svg" alt="cloud" className="footer-cloud1" />
+        <img src="./images/shape/footer-cloud.svg" alt="cloud" className="footer-cloud2" />
+        <img src="./images/shape/footer-cloud.svg" alt="cloud" className="footer-cloud3" />
         <div className="footer-img">
             <img src="./images/img/footer-bg.png" alt="img" />
         </div>
