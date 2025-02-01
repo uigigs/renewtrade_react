@@ -26,7 +26,7 @@ const howItWorksData = [
 
 const HowItWorks = () => {
   return (
-    <div className="how-it-section">
+    <div className="how-it-section" id='HowItWorks'>
       <div className="container">
         <div className="row">
         <div className="col-xl-7 col-lg-6">

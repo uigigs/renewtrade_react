@@ -2,7 +2,7 @@ import React from 'react'
 
 const Staking = () => {
     return (
-        <div className='staking-section'>
+        <div className='staking-section' id='Staking'>
             <div className="container">
                 <div className="row flex-row-reverse">
                     <div className="col-lg-6">

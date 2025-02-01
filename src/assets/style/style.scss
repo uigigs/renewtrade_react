@@ -239,7 +239,7 @@ ul{
 
 .buy-card{
     border-radius: 10px;
-    border: 1.3px solid rgba(119, 225, 149, 0.09);
+    border: 2px solid rgba(119, 225, 149, 0.09);
     background: rgba(255, 255, 255, 0.20);
     box-shadow: 0px 4px 110px 0px #E1FFE9;
     backdrop-filter: blur(3.5px);
@@ -268,6 +268,13 @@ ul{
                 position: relative;
                 max-width: 31;
                 width: 100%;
+                cursor: pointer;
+                &:hover{
+                    border-radius: 45.913px;
+                    border: 0.51px solid #8EE8A5;
+                    background: linear-gradient(90deg, #FFF 30.65%, #C6FED4 100%);
+                    transition: 0.3s;
+                }
             }
         }
     }

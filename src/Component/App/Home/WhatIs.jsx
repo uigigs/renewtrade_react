@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhatIs = () => {
     return (
-        <div className='what-is-section'>
+        <div className='what-is-section' id='about'>
             <div className="container">
                 <div className="row flex-row-reverse">
                     <div className="col-lg-6">

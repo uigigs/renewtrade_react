@@ -565,7 +565,7 @@
             }
             .mobile{
                 display: block;
-                transform: translateX(30px);
+                transform: translateX(10px);
             }
 
         }
@@ -582,7 +582,7 @@
             left: 4%;
         }
         &.three{
-            top: 57%;
+            top: 60%;
         }
         &.four{
             top: 62%;
@@ -629,6 +629,17 @@
         .input-row {
             .rtx-input{
                 width: 100%;
+            }
+        }
+        .payment-method {
+            ul{
+                li{
+                    height: auto;
+                    img{
+                        height: 35px;
+                        width: 35px;
+                    }
+                }
             }
         }
     }

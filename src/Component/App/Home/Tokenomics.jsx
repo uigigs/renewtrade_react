@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tokenomics = () => {
   return (
-    <div className='tokenomics-section'>
+    <div className='tokenomics-section' id='Tokenomics'>
         <img src="./images/shape/tokenomics-shape.svg" alt="shape" className='tokenomics-shape' />
         <div className="container">
             <div className="section-title text-center">

@@ -455,7 +455,7 @@
   }
   .tokenomics-section .tokenomics-img .mobile {
     display: block;
-    transform: translateX(30px);
+    transform: translateX(10px);
   }
   .tokenomics-section .count {
     padding: 12px 10px;
@@ -465,7 +465,7 @@
     left: 4%;
   }
   .tokenomics-text.three {
-    top: 57%;
+    top: 60%;
   }
   .tokenomics-text.four {
     top: 62%;
@@ -499,6 +499,13 @@
   }
   .buy-card .input-row .rtx-input {
     width: 100%;
+  }
+  .buy-card .payment-method ul li {
+    height: auto;
+  }
+  .buy-card .payment-method ul li img {
+    height: 35px;
+    width: 35px;
   }
   .rtx-input .next-price {
     font-size: 12px;
